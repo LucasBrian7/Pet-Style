@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet&Style</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- HEADER -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+
+            <h1 class="text-2xl font-bold text-blue-500">Pet&Style 🐾</h1>
+
+            <nav>
+                <ul class="flex flex-col md:flex-row gap-4 text-gray-600 font-medium">
+                    <li><a href="#produtos" class="hover:text-blue-500">Produtos</a></li>
+                    <li><a href="#depoimentos" class="hover:text-blue-500">Depoimentos</a></li>
+                    <li><a href="#contato" class="hover:text-blue-500">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="bg-blue-100 py-16">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+
+            <div class="flex-1 text-center md:text-left">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">
+                    Estilo e conforto para o seu pet 🐶🐱
+                </h2>
+                <p class="text-gray-600 mb-6">
+                    Produtos exclusivos que unem qualidade, design e muito amor pelos animais.
+                </p>
+                <a href="#produtos"
+                    class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition">
+                    Ver Produtos
+                </a>
+            </div>
+
+            <div class="flex-1">
+                <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e"
+                    alt="Pet estiloso"
+                    class="rounded-xl shadow-lg">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="py-16">
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-3xl font-bold text-center mb-12">
+                Nossos Produtos
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- CARD 1 -->
+                <div class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+                    <img src="/imagens/cama cachorro.jpg"
+                        alt="Caminha Luxo Pet"
+                        class="h-48 w-full object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold mt-4">Caminha Luxo Pet</h3>
+                    <p class="text-gray-500 text-sm mt-2 grow">
+                        Conforto e estilo para o seu pet descansar com muito charme.
+                    </p>
+                    <p class="text-blue-500 font-bold text-lg mt-4">
+                        R$ 199,90
+                    </p>
+                    <button
+                        class="mt-4 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+                        Comprar
+                    </button>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+                    <img src="/imagens/acessorioGato.jpg"
+                        alt="Coleira Chic Cat"
+                        class="h-48 w-full object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold mt-4">Coleira Chic Cat</h3>
+                    <p class="text-gray-500 text-sm mt-2 grow">
+                        Leve, confortável e cheia de charme para deixar seu felino ainda mais elegante.
+                    </p>
+                    <p class="text-blue-500 font-bold text-lg mt-4">
+                        R$ 39,90
+                    </p>
+                    <button
+                        class="mt-4 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+                        Comprar
+                    </button>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+                    <img src="/imagens/Brinquedos.jpg"
+                        alt="Brinquedo Mordedor"
+                        class="h-48 w-full object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold mt-4">Brinquedo TurboFun</h3>
+                    <p class="text-gray-500 text-sm mt-2 grow">
+                        Estimula a inteligência e mantém seu pet ativo por horas.
+                    </p>
+                    <p class="text-blue-500 font-bold text-lg mt-4">
+                        R$ 59,90
+                    </p>
+                    <button
+                        class="mt-4 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+                        Comprar
+                    </button>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+                    <img src="/imagens/camaGato.jpg"
+                        alt="Caminha Nuvem Felina"
+                        class="h-48 w-full object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold mt-4">Caminha Nuvem Felina</h3>
+                    <p class="text-gray-500 text-sm mt-2 grow">
+                        Maciez e aconchego para seu gato relaxar com muito estilo.
+                    </p>
+                    <p class="text-blue-500 font-bold text-lg mt-4">
+                        R$ 189,90
+                    </p>
+                    <button
+                        class="mt-4 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+                        Comprar
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-3xl font-bold text-center mb-12">
+                O que nossos clientes dizem 🐾
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="text-gray-600 italic">
+                        "Comprei a caminha para minha gatinha e ela não sai mais de lá! Qualidade incrível."
+                    </p>
+                    <h4 class="mt-4 font-semibold text-blue-500">
+                        — Ana Paula M.
+                    </h4>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="text-gray-600 italic">
+                        "Os brinquedos são resistentes e realmente entretêm meu cachorro por horas!"
+                    </p>
+                    <h4 class="mt-4 font-semibold text-blue-500">
+                        — Ricardo S.
+                    </h4>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="text-gray-600 italic">
+                        "Além dos produtos lindos, o atendimento foi excelente. Recomendo!"
+                    </p>
+                    <h4 class="mt-4 font-semibold text-blue-500">
+                        — Juliana R.
+                    </h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="py-16">
+        <div class="container mx-auto px-6 max-w-xl">
+
+            <h2 class="text-3xl font-bold text-center mb-8">
+                Entre em contato
+            </h2>
+
+            <form class="space-y-4">
+
+                <input type="text"
+                    placeholder="Seu nome"
+                    class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+
+                <input type="email"
+                    placeholder="Seu e-mail"
+                    class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+
+                <textarea rows="4"
+                    placeholder="Digite sua mensagem"
+                    class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+
+                <button
+                    class="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition">
+                    Enviar Mensagem
+                </button>
+
+            </form>
+
+            <div class="text-center mt-6 text-gray-600">
+                <p>Email: contato@petstyle.com</p>
+                <p>Telefone: (11) 99999-9999</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-blue-500 text-white text-center py-4">
+        © 2026 Pet&Style - Todos os direitos reservados
+    </footer>
+
+</body>
+
+</html>
